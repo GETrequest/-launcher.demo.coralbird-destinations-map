@@ -75,16 +75,6 @@ const config = {
                 webpackageName: webpackageName
             },
         }),
-        new HtmlWebpackPlugin({
-            template: 'microwebapps/default.html',
-            inject: 'body',
-            filename: 'microwebapps/default.html',
-            // manage placeholders
-            templateParameters: {
-                elementName: elementName,
-                webpackageName: webpackageName
-            },
-        }),
         new BundleAnalyzerPlugin({
             analyzerMode: 'static',
             reportFilename: 'bundleReport.html',

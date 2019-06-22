@@ -17,8 +17,7 @@ module.exports = (webpackageName) => {
       }
     ],
     dependencies: [
-      { webpackageId: "cubx.core.rte@3.0.0-SNAPSHOT", artifactId: "cubxcomponent" },
-      { artifactId: `${webpackageName}-utility-green-style` }
+      { webpackageId: "cubx.core.rte@3.0.0-SNAPSHOT", artifactId: "cubxcomponent" }
     ]
   };
 };
