@@ -58,6 +58,16 @@ module.exports = (webpackageName) => {
             maxZoom: 18
           }
         },
+      },
+      {
+        slot: 'mapWidth',
+        memberIdRef: 'map',
+        value: '100%'
+      },
+      {
+        slot: 'mapHeight',
+        memberIdRef: 'map',
+        value: '100%'
       }
     ]
   };
